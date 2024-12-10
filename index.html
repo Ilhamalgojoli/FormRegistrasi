@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Login</title>
+    <style>
+        body{
+            display: grid;
+            justify-content: center;
+        }
+        h1{
+            justify-content: center;
+            display: flex;
+        }
+        .container{
+            justify-content: center;
+            display: grid;
+        }
+        button{
+            background-color: green;
+            border: none;
+            border-radius: 20px;
+            width: 100px;
+            height: 40px;
+        }
+        .btn{
+            justify-content: center;
+            position: relative;
+            right: -100px;
+        }
+        p{
+            text-align: center;
+        }
+        input{
+            display: flex;
+            width: auto;
+            height: 25px;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Registrasi akun</h1>
+    <div class="container">
+        <p>Nama Lengkap
+            <input type="text" placeholder="Masukkan Nama Lengkap">
+        </p>
+        <p>Email
+            <input type="email" placeholder="Masukkan Email">
+        </p>
+        <p>Username
+            <input type="text" placeholder="Masukkan Username">
+        </p>
+        <p> Passoword
+            <input type="password" placeholder="Masukkan Password">
+        </p>
+        <p>Konfirmasi Passwords
+            <input type="password" placeholder="Konfirmasi Passoword">
+        </p>
+    </div>
+    <button type="submit" class="btn">Daftar</button>
+</body>
+</html>
